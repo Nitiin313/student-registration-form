@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form>
+
+    <!-- Text Fields -->
+    <label>First Name:</label>
+    <input type="text" name="fname" placeholder="Enter First Name" required>
+    <br><br>
+
+    <label>Last Name:</label>
+    <input type="text" name="lname" placeholder="Enter Last Name" required>
+    <br><br>
+
+    <!-- Email -->
+    <label>Email:</label>
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <br><br>
+
+    <!-- Mobile -->
+    <label>Mobile:</label>
+    <input type="tel" name="mobile" placeholder="Enter Mobile Number" required>
+    <br><br>
+
+    <!-- Password -->
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter Password" required>
+    <br><br>
+
+    <!-- Date -->
+    <label>Date of Birth:</label>
+    <input type="date" name="dob">
+    <br><br>
+
+    <!-- Radio -->
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    <!-- Dropdown -->
+    <label>Course:</label>
+    <select name="course">
+      <option value="">--Select Course--</option>
+      <option value="BCA">BCA</option>
+      <option value="MCA">MCA</option>
+      <option value="BTech">BTech</option>
+      <option value="MBA">MBA</option>
+    </select>
+    <br><br>
+
+    <!-- Checkbox -->
+    <label>Skills:</label>
+    <input type="checkbox" name="skills[]" value="HTML"> HTML
+    <input type="checkbox" name="skills[]" value="CSS"> CSS
+    <input type="checkbox" name="skills[]" value="JavaScript"> JavaScript
+    <input type="checkbox" name="skills[]" value="Python"> Python
+    <br><br>
+
+    <!-- Address -->
+    <label>Address:</label><br>
+    <textarea name="address" rows="4" cols="30" placeholder="Enter Address"></textarea>
+    <br><br>
+
+    <!-- File Upload -->
+    <label>Upload Photo:</label>
+    <input type="file" name="photo">
+    <br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Submit Form</button>
+    <button type="reset">Reset</button>
+
+  </form>
+
+</body>
+</html>
